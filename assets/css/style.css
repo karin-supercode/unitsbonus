@@ -1,0 +1,71 @@
+/* logo: DailyUI&UX
+content: 
+404
+Page not found
+I tried to catch some fog but I mist
+back to home
+Assets:
+Farben: #565c73, #CDD4DE
+link-background
+Font:Roboto 
+font-family: 'Roboto', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+body{
+    background-image: url(../img/bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: -100;
+    font-family: 'Roboto', sans-serif;
+    font-size:10px;
+    text-align: center;
+}
+header p{
+    font-style: italic;
+    font-size: 1.2em;
+    font-weight:600;
+    color:rgb(82, 87, 126);
+    margin-bottom: 100px;
+
+}
+
+h1, h2, p{
+    color:rgba(247, 250, 253, 0.329);
+    line-height: 0.5em;
+}
+
+h1{
+    font-size: 12em;
+    padding-top: 50px;
+    line-height: 0.3em;
+}
+
+h2{
+    font-size: 3em;
+    line-height: 0.1em;
+}
+
+p{
+    font-size: 1.3em;
+    margin-bottom: 5em;
+}
+
+button{
+    background:none;
+    border:1px solid rgba(247, 250, 253, 0.329);
+    border-radius: 5px;
+    color:rgba(247, 250, 253, 0.329);
+    padding: 5px 10px;
+
+}
+button:hover{
+    background: rgba(218, 208, 208, 0.4);
+}
+
+button a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:rgba(247, 250, 253, 0.329);
+}
